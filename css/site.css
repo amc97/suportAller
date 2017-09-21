@@ -1,0 +1,172 @@
+.intro-header{
+    background-color: #107cd5;
+}
+
+.ticket-number{
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.ticket-number span{
+    font-weight: 900;
+}
+
+.aditional-info{
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.aditional-info ul{
+    margin-top: 20px;
+}
+
+.aditional-info ul li{
+    margin-bottom: 5px;
+}
+
+.navbar-nav>li{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.navbar-nav>li:hover{
+    background: #fff;
+    transition: all 0.3s;
+}
+
+.navbar-nav>li a:hover{
+    color: #333 !important;
+    transition: all 0.3s;
+}
+
+.navbar-custom .nav li a{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-input{
+    height: 60px !important;
+    font-size: 20px;
+}
+
+.btn-search{
+    height: 60px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s;
+    background: #107cd5;
+    color: #fff;
+    border-color: #107cd5;
+    font-size: 20px;
+}
+
+.btn-search:hover{
+    background: #107cd5;
+    opacity: .8;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.search-box{
+    margin: 40px 0;
+}
+
+.ticket-status{
+    margin: 60px 0;
+}
+
+.ticket-status ul{
+    list-style: none;
+    padding: 0;
+}
+
+.ticket-status ul li{
+    font-size: 16px;
+}
+
+.ticket-status ul li{
+    margin-bottom: 15px;
+}
+
+.box{
+    background: #eee;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tickets-table{
+    font-size: 16px !important;
+}
+
+td a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.data{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.jumbotron{
+    padding-top: 96px;
+}
+
+.dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_paginate{
+    font-size: 14px;
+}
+
+.modal .ticket-status{
+    margin: 0 !important;
+}
+
+.modal ul{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.tab-content{
+    padding-top: 20px;
+}
+
+ul.itens-download li a{
+    color: #107cd5;
+}
+
+ul.itens-download li{
+    margin-bottom: 10px;
+}
+
+.form-signin{
+    margin-top: 100px;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+h2.form-signin-heading{
+    font-weight: 500;
+    text-align: center;
+}
