@@ -11,15 +11,9 @@
 
     <title>Suporte ALLER</title>
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/site.css" rel="stylesheet">
+    <link href="vendor/admin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.css" rel="stylesheet">
-    
-    
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,51 +23,48 @@
 
 </head>
 
-<body>
+<body class="bg-dark">
 
-    <div class="container">
-        <div class="col-lg-4 col-lg-offset-4">
-             <form class="form-signin">
-                <h2 class="form-signin-heading">Help Desk</h2>
-                <label for="inputEmail" class="sr-only">Email address</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email admnistrativo" required autofocus>
-                <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
-                <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="remember-me"> Salvar senha
-                </label>
+    <div class="container" style="padding: 5%;">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 mx-auto">
+                <div class="card border-primary">
+                    <div class="card-header bg-primary text-light">
+                        <h2 class="text-center">Help Desk</h2>
+                    </div>
+                    <div class="card-body">
+                        <form>                            
+                            <div class="form-group">                                
+                                <input type="email" id="inputEmail" class="form-control" placeholder="Email admnistrativo" required autofocus>
+                            </div>
+                            <div class="form-group">                                
+                                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                <input type="checkbox" value="remember-me"> Manter conectado
+                            </label>
+                            </div>
+                            <br>
+                            <div class="form-group text-center">
+                                <button class="btn btn-primary" type="submit">Entrar</button>
+                            </div>                            
+                        </form>
+                    </div>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
-            </form>
+            </div>
         </div>
     </div>
 
 
 
-  <!-- jQuery -->
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
-   
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.js"></script>
+    <!-- jQuery -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    
-
-    <script src="js/datatables.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('#tickets').DataTable();
-        } );
-    </script>
-
-    <script>
-        $(document).ready(function() {
-        $('#summernote').summernote();
-        });
-</script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>    
 
 </body>
 
