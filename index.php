@@ -102,7 +102,10 @@
                     <br>
                    <div class="row">
                         <div class="col-lg-12 text-center">
-                            <button onclick="showAlert();" type="submit" class="btn btn-primary" ng-disabled="!ticket.userName || !ticket.userEmail || !ticket.problem || !ticket.priority">Abrir Ticket</button>
+                            <button onclick="showAlert();" type="submit" class="btn btn-primary btn-lg" ng-disabled="!ticket.userName || !ticket.userEmail || !ticket.problem || !ticket.priority">
+                                Abrir Ticket 
+                                <i class="fa fa-send"></i>
+                            </button>
                         </div>
                    </div>                    
                 </form>
