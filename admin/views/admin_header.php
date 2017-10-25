@@ -47,16 +47,16 @@
                     </a>
                     <ul class="sidenav-second-level collapse" id="tickets">
                         <li>
-                            <a href="#">Tickets abertos</a>
+                            <a href="ticketsAbertos.php">Tickets abertos</a>
                         </li>
                         <li>
-                            <a href="#">Tickets próximos do prazo</a>
+                            <a href="ticketsProximos.php">Tickets próximos do prazo</a>
                         </li>
                         <li>
-                            <a href="#">Tickets atrazados</a>
+                            <a href="ticketsAtrasados.php">Tickets atrasados</a>
                         </li>
                         <li>
-                            <a href="#">Todos os Tickets</a>
+                            <a href="allTickets.php">Todos os Tickets</a>
                         </li>
                     </ul>
                 </li>
@@ -72,7 +72,7 @@
                             <a href="cadastrarCliente.php">Cadastrar clientes</a>
                         </li>
                         <li>
-                            <a href="#">Listar clientes</a>
+                            <a href="listarClientes.php">Listar clientes</a>
                         </li>                        
                     </ul>
                 </li>

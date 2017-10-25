@@ -16,7 +16,7 @@
                                 32 Tickets abertos
                             </div>
                         </div>
-                        <a href="#" class="card-footer text-white clearfix small z-1">
+                        <a href="ticketsAbertos.php" class="card-footer text-white clearfix small z-1">
                             <span class="float-left">Ver Detalhes</span>
                             <span class="float-right">
                                 <i class="fa fa-angle-right"></i>
@@ -34,7 +34,7 @@
                                 4 Tickets próximos de estourar o prazo
                             </div>
                         </div>
-                        <a href="#" class="card-footer text-white clearfix small z-1">
+                        <a href="ticketsProximos.php" class="card-footer text-white clearfix small z-1">
                             <span class="float-left">Ver Detalhes</span>
                             <span class="float-right">
                                 <i class="fa fa-angle-right"></i>
@@ -52,7 +52,7 @@
                                 1 Ticket Atrasado
                             </div>
                         </div>
-                        <a href="#" class="card-footer text-white clearfix small z-1">
+                        <a href="ticketsAtrasados.php" class="card-footer text-white clearfix small z-1">
                             <span class="float-left">Ver Detalhes</span>
                             <span class="float-right">
                                 <i class="fa fa-angle-right"></i>
@@ -70,7 +70,7 @@
                                 320 Tickets no total
                             </div>
                         </div>
-                        <a href="#" class="card-footer text-white clearfix small z-1">
+                        <a href="allTickets.php" class="card-footer text-white clearfix small z-1">
                             <span class="float-left">Ver Detalhes</span>
                             <span class="float-right">
                                 <i class="fa fa-angle-right"></i>

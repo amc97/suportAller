@@ -85,7 +85,7 @@
                         <div class="col-lg-12">
                             <label for="desc">Descrição do problema</label>
                             <a href="" data-toggle="tooltip" data-placement="right" title="Faça uma descrição detalhada do problema." class="badge badge-pill">i</a>
-                            <div id="summernote" ng-model="ticket.desc"></div>
+                            <div id="summernote" ng-model="ticket.desc" ng-required></div>
                         </div>
                    </div>
 
@@ -102,7 +102,8 @@
                     <br>
                    <div class="row">
                         <div class="col-lg-12 text-center">
-                            <button onclick="showAlert();" type="submit" class="btn btn-primary btn-lg" ng-disabled="!ticket.userName || !ticket.userEmail || !ticket.problem || !ticket.priority">
+                            <button onclick="showAlert();" type="submit" class="btn btn-primary btn-lg"
+                                ng-disabled="!ticket.userName || !ticket.userEmail || !ticket.problem || !ticket.priority || !ticket.title">
                                 Abrir Ticket 
                                 <i class="fa fa-send"></i>
                             </button>
